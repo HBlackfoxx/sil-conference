@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react'
 import { 
   Users, FileText, CreditCard, Shield, BarChart3, Settings,

@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from 'react'
 import { Linkedin, Twitter, Globe, ChevronDown, Award, Briefcase } from 'lucide-react'
 

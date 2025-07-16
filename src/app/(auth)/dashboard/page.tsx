@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react'
 import { 
   User, FileText, Calendar, CreditCard, Settings, LogOut,
@@ -13,14 +15,14 @@ const UserDashboard = () => {
 
   // Mock user data
   const userData = {
-    name: 'Dr. Sarah Johnson',
+    name: 'Mohamed Boukri',
     email: 'sarah.johnson@university.edu',
     role: 'Academic',
-    affiliation: 'MIT Computer Science Lab',
-    country: 'United States',
+    affiliation: 'Ecole Centrale Lyon',
+    country: 'France',
     registrationStatus: 'confirmed',
     paperSubmissions: 2,
-    profileImage: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400'
+    profileImage: ''
   }
 
   // Mock data

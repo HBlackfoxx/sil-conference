@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import { ExternalLink, Star } from 'lucide-react'
 
